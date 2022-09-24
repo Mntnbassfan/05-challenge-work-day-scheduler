@@ -56,4 +56,34 @@ fourteenBlock.click(function () {
   localStorage.setItem("14", value);
 });
 // retrieve the value of the text entry from local storage
-$("#13pmDescription").val(localStorage.getItem("14"));
+$("#14pmDescription").val(localStorage.getItem("14"));
+
+// functionality for 15pm button
+var fifteenBlock = $("#15pmButton");
+// Get the value of the text entry and save it to local storage
+fifteenBlock.click(function () {
+  var value = $("#15pmDescription").val();
+  localStorage.setItem("15", value);
+});
+// retrieve the value of the text entry from local storage
+$("#15pmDescription").val(localStorage.getItem("15"));
+
+// functionality for 16pm button
+var sixteenBlock = $("#16pmButton");
+// Get the value of the text entry and save it to local storage
+sixteenBlock.click(function () {
+  var value = $("#16pmDescription").val();
+  localStorage.setItem("16", value);
+});
+// retrieve the value of the text entry from local storage
+$("#16pmDescription").val(localStorage.getItem("16"));
+
+// functionality for 17pm button
+var seventeenBlock = $("#17pmButton");
+// Get the value of the text entry and save it to local storage
+seventeenBlock.click(function () {
+  var value = $("#17pmDescription").val();
+  localStorage.setItem("17", value);
+});
+// retrieve the value of the text entry from local storage
+$("#17pmDescription").val(localStorage.getItem("17"));
